@@ -24,3 +24,4 @@ function scrollingPrevious() {
 
 
 nextSlide.addEventListener("click", scrollingNext);
+previousSlide.addEventListener("click", scrollingPrevious);
