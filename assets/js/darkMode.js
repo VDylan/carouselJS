@@ -11,3 +11,5 @@ function changeTheme(ev) {
     document.querySelector("#darkMode").classList.remove("active");
   }
 }
+
+darkMode.addEventListener("click", changeTheme);
