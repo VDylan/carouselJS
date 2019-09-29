@@ -12,21 +12,3 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-ul {
-  text-align: center;
-}
-
-ul > li {
-  display: none;
-}
-
-img {
-  margin-top: 0.5rem;
-  width: 50%;
-  height: auto;
-}
-
-.active {
-  display: block;
-}
