@@ -30,3 +30,11 @@ img {
 .active {
   display: block;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 75%;
+  align-items: center;
+  justify-items: center;
+}
