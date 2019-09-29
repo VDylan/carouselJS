@@ -196,3 +196,21 @@ body.darkMode h1 {
   text-shadow: 0 -1px 0 #0000004d, 0 0px 30px #00ffffb3;
   text-shadow: 0 -1px 0 black, 0 0px 30px cyan, 0 0px 50px cyan;
 }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
