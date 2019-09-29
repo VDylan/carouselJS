@@ -21,3 +21,6 @@ function scrollingPrevious() {
   }
   images[i].classList.add("active");
 }
+
+
+nextSlide.addEventListener("click", scrollingNext);
