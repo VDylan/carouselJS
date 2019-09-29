@@ -58,6 +58,7 @@ a {
   text-decoration: none;
   cursor: pointer;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  user-select: none;
 }
 
 /* -------------------
