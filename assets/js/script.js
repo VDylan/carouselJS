@@ -12,3 +12,12 @@ function scrollingNext() {
   }
   images[i].classList.add("active");
 }
+
+function scrollingPrevious() {
+  images[i].classList.remove("active");
+  i--;
+  if (i < 0) {
+    i = images.length - 1;
+  }
+  images[i].classList.add("active");
+}
