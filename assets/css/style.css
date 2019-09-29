@@ -48,6 +48,10 @@ body.darkMode {
   background: url("http://www.bradysammons.com/codepen/darkui/noise.png") repeat;
 }
 
+body.darkMode .wrapper a {
+    color: #fff;
+}
+
 a {
   text-align: center;
   display: inline-block;
