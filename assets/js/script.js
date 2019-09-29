@@ -22,6 +22,15 @@ function scrollingPrevious() {
   images[i].classList.add("active");
 }
 
+function scrollingArrow(key) {
+  if (key.keyCode == 39) {
+    scrollingNext();
+  }
+
+  if (key.keyCode == 37) {
+    scrollingPrevious();
+  }
+}
 
 nextSlide.addEventListener("click", scrollingNext);
 previousSlide.addEventListener("click", scrollingPrevious);
