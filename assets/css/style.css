@@ -39,3 +39,11 @@ img {
   align-items: center;
   justify-items: center;
 }
+
+#darkMode {
+  margin-top: 1rem;
+}
+
+body.darkMode {
+  background: url("http://www.bradysammons.com/codepen/darkui/noise.png") repeat;
+}
