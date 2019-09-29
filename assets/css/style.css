@@ -48,8 +48,12 @@ body.darkMode {
   background: url("http://www.bradysammons.com/codepen/darkui/noise.png") repeat;
 }
 
+body.darkMode h1 {
+  color: #fff;
+}
+
 body.darkMode .wrapper a {
-    color: #fff;
+  color: #fff;
 }
 
 a {
