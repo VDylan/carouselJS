@@ -35,3 +35,7 @@ function scrollingArrow(key) {
 nextSlide.addEventListener("click", scrollingNext);
 previousSlide.addEventListener("click", scrollingPrevious);
 document.addEventListener("keyup", scrollingArrow);
+
+setInterval(function() {
+  scrollingNext();
+}, 10000);
